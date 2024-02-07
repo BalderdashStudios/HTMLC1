@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #EEE1B3;
   text-align: center;
   font-family: verdana;
   font-size: 40px;
@@ -14,23 +14,63 @@ p {
   font-family: verdana;
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: #EEE1B3;
 }
 
 .iMacG4Container {
 	background-color: #2F394D;
 	text-align: center;
 	border-radius: 50px;
-	color: white;
+	color: #EEE1B3;
 }
 
 .iMacG3Container {
 	background-color: #2F394D;
 	text-align: center;
 	border-radius: 50px;
-	color: white;
+	color: #EEE1B3;
+}
+.roundCorners {
+	border-radius: 50px;
 }
 
-.G4Img {
+.list1 {
+	background-color: #2F394D;
+	font-family: verdana;
+    font-size: 20px;
+	text-align: center;
 	border-radius: 50px;
+	color: #EEE1B3;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.list2 {
+	background-color: #2F394D;
+    list-style-type: none;
+	font-family: verdana;
+    font-size: 20px;
+	text-align: center;
+	border-radius: 50px;
+	color: #EEE1B3;
+	text-decoration: none;
+}
+
+.img1 {
+	 max-width: 50%;
+     height: auto;
+}
+
+a:link, a:visited {
+  background-color: #EEE1B3;
+  color: #56666B;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #56666B;
+  color: #EEE1B3;
 }
